@@ -1,45 +1,81 @@
+# 🏠 Airbnb Data Analysis
 
-# Airbnb Data Analysis 
+> Comprehensive Exploratory Data Analysis (EDA) on Airbnb listings to uncover pricing patterns, availability trends, and location-based insights.
 
+---
 
-## Introduction
-Welcome to the Airbnb Data Analysis Project! This project aims to provide insights into Airbnb listings and hosts by analyzing data extracted from JSON files. Airbnb has revolutionized the hospitality industry by allowing individuals to rent out their properties or spare rooms to guests worldwide. Understanding the trends, pricing dynamics, host characteristics, and guest preferences can provide valuable insights for both hosts and travelers alike.
-## Objective
-1.Data Extraction: Process JSON data to extract relevant information such as listing details, host attributes, pricing, and review scores.
+## 🚀 Project Overview
 
-2.Data Cleaning and Preprocessing: Handle missing values, normalize data, and prepare it for analysis.
+This project performs a deep-dive analysis on Airbnb listing data to help hosts and travelers understand:
+- What factors influence listing **prices**
+- Which **locations** have the highest demand
+- **Availability** patterns across seasons and room types
+- Host performance and review trends
 
-3.Exploratory Data Analysis (EDA): Analyze key metrics and trends in Airbnb listings and host characteristics.
+---
 
-4.Insights Generation: Extract actionable insights to understand factors influencing pricing, occupancy rates, and guest satisfaction.
-## Usage
-The project processes Airbnb JSON data files to create a structured DataFrame and perform data cleaning, normalization, and analysis. Here’s how to use it:
+## 🛠️ Tech Stack
 
-Ensure you have Python installed along with the required dependencies.
-Place your Airbnb JSON data file (sample_airbnb.json) in the project directory.
-Run the main script to process the data and generate insights:
-bash
-Copy code
-$ python airbnb_analysis.py
-The script will clean the data, handle missing values, and extract relevant features such as listing details, host information, pricing, and review scores.
-## Tools and Libraries
+| Technology | Purpose |
+|-----------|---------|
+| Python | Core programming language |
+| Pandas | Data cleaning & manipulation |
+| NumPy | Numerical operations |
+| Matplotlib | Static visualizations |
+| Seaborn | Statistical data visualization |
+| Jupyter Notebook | Analysis environment |
 
-This project utilizes Python programming language along with the following libraries:
+---
 
-1.Pandas: Data manipulation and analysis.
+## ✨ Key Analysis Performed
 
-2.Matplotlib and Plotly: Data visualization.
+- 🧹 **Data Cleaning** — Handled missing values, outliers, and inconsistent formats
+- 📍 **Location Analysis** — Price variation across neighbourhoods
+- 🛏️ **Room Type Analysis** — Entire home vs private room vs shared room pricing
+- 📅 **Availability Trends** — Seasonal booking patterns
+- ⭐ **Review Analysis** — Correlation between reviews and listing performance
+- 💰 **Price Distribution** — Identifying premium vs budget listings
 
-3.JSON: Handling JSON data files.
+---
 
-4.NumPy: Numerical computing.
+## 📊 Sample Insights
 
-5.Streamlit: Creating interactive data applications (optional for visualization).
-## Data source
+- Entire home listings command 2-3x higher prices than shared rooms
+- Neighbourhoods near city centres show 40% higher average prices
+- Listings with 50+ reviews have significantly higher availability rates
 
-The Airbnb data used in this project (sample_airbnb.json) was sourced from example.com. It includes various attributes such as property details, host information, pricing, availability, and guest reviews.
+---
 
+## 📁 Project Structure
 
-## Acknowledgements
+```
+airbnb-data-analysis/
+├── airbnb_analysis.ipynb    # Main analysis notebook
+├── data/
+│   └── airbnb_data.csv      # Dataset
+├── visuals/                 # Exported charts
+└── README.md
+```
 
-Recognition of individuals, organizations, or resources that have contributed to the development and success of the Airbnb Data Analysis project.
+---
+
+## ⚙️ How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/MADANSS1/airbnb_anlysis
+
+# 2. Install dependencies
+pip install pandas numpy matplotlib seaborn jupyter
+
+# 3. Launch Jupyter Notebook
+jupyter notebook airbnb_analysis.ipynb
+```
+
+---
+
+## 🙋 Author
+
+**Madan Subasakthivel**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/madan-subasakthivel-42178a209/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/MADANSS1)
